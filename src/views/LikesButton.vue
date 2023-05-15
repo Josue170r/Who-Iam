@@ -7,15 +7,6 @@
       <p>{{ text }}</p>
       <p></p>
     </div>
-    <div class="col-md-4 wrapper">
-      <img src="../assets/gym.webp" alt="basquetbol" width="300">
-      <p>{{ text2 }}</p>
-      <p></p>
-    </div>
-    <div class="col-md-4 wrapper">
-      <img src="../assets/math.jpg" alt="basquetbol" width="220">
-      <p>{{ text3 }}</p>
-    </div>
   </div>
 </template>
 
