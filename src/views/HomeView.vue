@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/Josue.jpg" width="200">
-    <HelloWorld msg="Josué Montalbán Rojas"/>
+    <HelloWorld msg="Josué Montalbán Rojas" />
   </div>
 </template>
 

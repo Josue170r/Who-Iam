@@ -19,16 +19,16 @@
 </template>
 
 <style>
-p{
+p {
   text-align: center;
   margin: 1px 2px;
   padding: 5px 1px;
 }
-.wrapper{
-    border: 1px solid #000000;
-    background-color: #b87af1;
-  }
 
+.wrapper {
+  border: 1px solid #000000;
+  background-color: #b87af1;
+}
 </style>
 
 <script>

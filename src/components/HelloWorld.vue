@@ -29,24 +29,27 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
 }
+
 a {
   color: #42b983;
 }
-.hello p{
+
+.hello p {
   text-align: justify;
   margin: 30px 250px;
   font-size: 1.2em;
 }
-h2{
-  font-family: sans-serif;
-}
 
-</style>
+h2 {
+  font-family: sans-serif;
+}</style>
