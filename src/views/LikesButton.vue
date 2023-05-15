@@ -1,7 +1,6 @@
 <template>
   <div class="about row">
-    <h1>{{ nombrefromstore }}</h1>
-    <h1>Edad: {{ edad }}</h1>
+    <PersonalData></PersonalData>
     <div class="col-md-4 wrapper">
       <img src="../assets/basquet.jpg" alt="basquetbol" width="300">
       <p>{{ text }}</p>
@@ -11,11 +10,8 @@
 </template>
 
 <style>
-h1{
-  font-family: 'Dancing Script', cursive;
-}
 p{
-  text-align: justify;
+  text-align: center;
   margin: 1px 2px;
   padding: 5px 1px;
 }
@@ -27,7 +23,12 @@ p{
 </style>
 
 <script>
+import PersonalData from '@/components/PersonalData.vue';
+
 export default {
+  components: {
+    PersonalData,
+  },
   data() {
     return {
       text: 'Basketball is my favorite sport. I have been playing basketball since I was 8 years old, and I was a part of a team called "Jaguars" for 2 years.',
