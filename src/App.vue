@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Sobre mí</router-link> |
-      <router-link to="/about">Intereses</router-link>
+      <router-link to="/">About me</router-link> |
+      <router-link to="/about">Interests</router-link>
     </nav>
     <router-view/>
   </div>
@@ -10,11 +10,11 @@
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #07383a;
 }
 
 nav {
@@ -22,10 +22,10 @@ nav {
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #333333;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #333333;
     }
   }
 }
