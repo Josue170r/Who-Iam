@@ -1,18 +1,21 @@
 <template>
   <div class="hello">
     <PersonalData />
-    <p>Este es mi elemento desde el store</p>
+    <MyChangeBotton></MyChangeBotton>
+    <p>Descripción usando store</p>
     <p>{{ longParagraph }}</p>
   </div>
 </template>
 
 <script>
 import PersonalData from '@/components/PersonalData.vue';
+import MyChangeBotton from './MyChangeBotton.vue';
 
 export default {
   name: 'HelloWorld',
   components: {
     PersonalData,
+    MyChangeBotton,
   },
   props: {
     msg: String,
@@ -52,4 +55,5 @@ a {
 
 h2 {
   font-family: sans-serif;
-}</style>
+}
+</style>
